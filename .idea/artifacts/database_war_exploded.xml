@@ -1,0 +1,17 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="database:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/database_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="database/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="database" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: org.xerial:sqlite-jdbc:3.39.4.0" />
+          <element id="library" level="project" name="tomcat.servlet" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
