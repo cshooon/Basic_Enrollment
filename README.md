@@ -105,10 +105,10 @@ String query = "select * from Enrollment natural join Course natural join Subjec
 
 수강신청 현황을 보여주는 화면으로 넘어간다. 왼쪽 위 delete을 통해 삭제할 수 있다.
 ![seventh](/images/seventh.png)
-
+![eleventh](/images/eleventh.png)
 
 Delete을 누르면 삭제 성공!!이라는 메시지가 뜨고 삭제가 된다.
-![eleventh](/images/eleventh.png)
+
 
 main에서 정보 수정에 들어가면 비밀번호를 바꿀 수 있다.
 
@@ -116,7 +116,7 @@ main에서 정보 수정에 들어가면 비밀번호를 바꿀 수 있다.
 ![eighth](/images/eighth.png)
 
 
-Main의 오른쪽에 있다 회원 탈퇴 버튼을 누르면 회원 탈퇴가 되고 아래 DB browser에서 확인하면 아이디가 20101301인 회원이 사라졌음을 알 수 있다.
+Main의 오른쪽에 있는 회원 탈퇴 버튼을 누르면 회원 탈퇴가 되고 아래 DB browser에서 확인하면 아이디가 20101301인 회원이 사라졌음을 알 수 있다.
 
 
 ![nineth](/images/nineth.png)
