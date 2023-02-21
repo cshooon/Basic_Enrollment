@@ -89,19 +89,36 @@ String query = "select * from Enrollment natural join Course natural join Subjec
 ![first](/images/first.png)
 ![second](/images/second.png)
 ![third](/images/third.png)
+
+
 왼쪽 그림은 tomcat을 실행했을 때 첫 화면이다. 오른쪽 화면처럼 회원가입을 한 뒤 로그인을 할 수 있다.
 ![fourth](/images/fourth.png)
+
+
 로그아웃을 하면 다시 로그인페이지로 돌아가고 session.invalidate을 통해 로그아웃 해준다. 우선수강신청하기를 누른다.
 ![fifth](/images/fifth.png)
+
+
 수강신청 가능한 과목은 DB Browser을 통해 넣었다. Checkbox로 중복 체크이 가능하도록 만들었다. 체크한 뒤에 상단에 있는 enroll을 누르면 수강신청이 된다.
 ![sixth](/images/sixth.png)
+
+
 수강신청 현황을 보여주는 화면으로 넘어간다. 왼쪽 위 delete을 통해 삭제할 수 있다.
 ![seventh](/images/seventh.png)
+
+
 Delete을 누르면 삭제 성공!!이라는 메시지가 뜨고 삭제가 된다.
-![eighth](/images/eighth.png)
-main에서 정보 수정에 들어가면 비밀번호를 바꿀 수 있다.
 ![eleventh](/images/eleventh.png)
+
+main에서 정보 수정에 들어가면 비밀번호를 바꿀 수 있다.
+
+
+![eighth](/images/eighth.png)
+
+
 Main의 오른쪽에 있다 회원 탈퇴 버튼을 누르면 회원 탈퇴가 되고 아래 DB browser에서 확인하면 아이디가 20101301인 회원이 사라졌음을 알 수 있다.
+
+
 ![nineth](/images/nineth.png)
 ## Evaluation
 회원가입과 로그인, 그리고 회원 정보 수정과 탈퇴를 구현했다. 로그인의 경우 오류 없이 잘 작동한다. 수강신청 삭제에서 form 태그를 통해 번호를 받아서 해당하는 번호를 삭제하도록 만들었다. 삭제가 진행되면서 번호가 바뀌었는데 이 점이 적용되지 않고 번호가 그대로 넘어가서 삭제가 잘 되지 않았다. 이 지점에서 막혀 검색 기능까지는 구현하지 못하였다. 
